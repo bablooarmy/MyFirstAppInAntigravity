@@ -40,7 +40,7 @@ export const searchFlights = async (criteria: FlightSearchCriteria): Promise<Fli
 
 export const getFlightById = async (id: string): Promise<Flight | null> => {
   try {
-    const response = await api.get<Flight>(`/flights/${id}`);
+    const response = await api.get<Flight>(`/flights-wrong/${id}`);
     return response.data;
   } catch (error) {
     console.error('Error fetching flight details:', error);

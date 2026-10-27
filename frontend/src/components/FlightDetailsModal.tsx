@@ -39,7 +39,7 @@ export const FlightDetailsModal: React.FC<FlightDetailsModalProps> = ({ flight, 
             <button
               type="button"
               className="btn-close btn-close-white"
-              onClick={onClose}
+              // onClick={onClose}
             ></button>
           </div>
 
