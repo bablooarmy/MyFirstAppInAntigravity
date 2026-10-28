@@ -113,7 +113,7 @@ export const FlightDetailsModal: React.FC<FlightDetailsModalProps> = ({ flight, 
               <span className="fs-3 fw-extrabold text-primary ms-1">${flight.price}</span>
             </div>
             <div className="d-flex gap-2">
-              <button type="button" className="btn btn-outline-secondary rounded-pill px-4" onClick={onClose}>
+              {/* <button type="button" className="btn btn-outline-secondary rounded-pill px-4" onClick={onClose}>
                 Close
               </button>
               <button
@@ -125,7 +125,7 @@ export const FlightDetailsModal: React.FC<FlightDetailsModalProps> = ({ flight, 
                 }}
               >
                 Proceed to Booking
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
